@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo: #FDF4F5;
+    --lilas: #BA90C6;
+    --lilas-claro: #BBA2C6;
+    --roxo: #895B97;
+    --preto: #000000;
+}
+
+body {
+    background-color: var(--fundo);
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN */
+
+#botaoUpload {
+    background-color: var(--roxo);
+    border-radius: 15px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 100%;
+}
